@@ -50,16 +50,14 @@
 				<div class="container">
 					<div class="row nav-wrapper">
 						<div class="col-md-6 col-sm-6 col-xs-6 text-left">
-							<a href="#"><img src="img/logo-white.png" alt="Boxify Logo"></a>
-						</div>
+							</div>
 						<div class="col-md-6 col-sm-6 col-xs-6 text-right navicon">
 							<p>MENU</p><a id="trigger-overlay" class="nav_slide_button nav-toggle" href="#"><span></span></a>
 						</div>
 					</div>
 					<div class="row hero-content">
 						<div class="col-md-12">
-							<h1 class="animated fadeInDown">An Exclusive, Premium HTML5 &amp; CSS3 Template by Peter Finlan, for Codrops.</h1>
-							<a href="http://tympanus.net/codrops/?p=22554" class="use-btn animated fadeInUp">Use it for free</a> <a href="#about" class="learn-btn animated fadeInUp">Learn more <i class="fa fa-arrow-down"></i></a>
+							<!--<h1 class="animated fadeInDown">An Exclusive, Premium HTML5 &amp; CSS3 Template by Peter Finlan, for Codrops.</h1>-->
 						</div>
 					</div>
 				</div>
@@ -69,7 +67,6 @@
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12 text-center">
-						<h1><a href="http://www.youtube.com/embed/9No-FiEInLA?autoplay=1&wmode=opaque&fs=1" class="youtube-media"><i class="fa fa-play-circle-o"></i> Watch the Video</a></h1>
 					</div>
 				</div>
 			</div>
@@ -89,9 +86,9 @@
 						<div class="features-slider">
 								<ul class="slides" id="featuresSlider">
 									<li>
-										<h1>The Fore-front of Design &amp; Technology</h1>
-										<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-										<p><a href="#features" class="arrow-btn">Find out why this freebie rocks! <i class="fa fa-long-arrow-right"></i></a></p>
+										<h1>LEMA 2025 </h1>
+										<p>resumen para el lema,,, no lo encontré,,,, puse una imágen al costado,,, se podría hacer una imágen que tenga un efecto de translúcido azul para que quede linda?</p>
+										<p><a href="#features" class="arrow-btn">Más sobre el lema de éste año... Necesitan que se abra una ventana o solamente una imágen flotante? <i class="fa fa-long-arrow-right"></i></a></p>
 									</li>
 									<li>
 										<h1>Multi-Purpose User Centric Design</h1>
@@ -108,41 +105,90 @@
 					</div>
 				</div>
 			</div>
-		</section>
+		
+
+		
 		<section class="features-list" id="features">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-12">
+	<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Íconos Centrados con Texto</title>
+    <style>
+        /* Contenedor principal para centrar todo */
+        .main-container {
+            display: flex;
+            justify-content: center; /* Centra horizontalmente */
+            align-items: center; /* Centra verticalmente */
+            /*height: 100vh; /* Ocupa toda la altura de la ventana */
+        }
 
-						<div class="col-md-4 feature-1 wp2">
-							<div class="feature-icon">
-								<i class="fa fa-desktop"></i>
-							</div>
-							<div class="feature-content">
-								<h1>Responsive</h1>
-								<p>Built using HTML5/CSS3 and jQuery, and built using one of the world's most powerful CSS frameworks available, Bootstrap.</p>
-								<a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
-							</div>
-						</div>
-						<div class="col-md-4 feature-2 wp2 delay-05s">
-							<div class="feature-icon">
-								<i class="fa fa-flash"></i>
-							</div>
-							<div class="feature-content">
-								<h1>Multi-Purpose</h1>
-								<p>Perfect if you run your own start-up, product or service. Boxify can showcase your business converting your visits to income.</p>
-								<a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
-							</div>
-						</div>
-						<div class="col-md-4 feature-3 wp2 delay-1s">
-							<div class="feature-icon">
-								<i class="fa fa-heart"></i>
-							</div>
-							<div class="feature-content">
-								<h1>Absolutely Free</h1>
-								<p>As aways, download Boxify for free exclusively from Codrops. If you love Boxify and want to thank me, simply <a href="http://peterfinlan.com/">buy me a beer</a>. </p>
-								<a href="http://tympanus.net/codrops/?p=22554" class="read-more-btn">Read More <i class="fa fa-chevron-circle-right"></i></a>
-							</div>
+        /* Grupo de íconos */
+        .icon-group {
+            display: flex;
+            gap: 16px; /* Espaciado entre los grupos de íconos */
+        }
+
+        /* Contenedor de cada ícono y texto */
+        .icon-text-container {
+            display: flex;
+            align-items: center;
+        }
+
+        /* Estilo del ícono */
+        .icon {
+            width: 80px;
+            height: 80px;
+            margin-right: 8px; /* Espaciado entre ícono y texto */
+        }
+
+        /* Estilo del texto */
+        .text {
+            font-size: 16px;
+            max-width: 25ch; /* Limita el ancho del texto a 25 caracteres */
+            overflow-wrap: break-word; /* Ajusta el texto si es necesario */
+        }
+        /* Media query: diseño para pantallas pequeñas */
+        @media (max-width: 600px) {
+            .icon-group {
+                flex-direction: column; /* Cambia los íconos y texto a una columna */
+                gap: 24px; /* Espaciado vertical entre los íconos */
+            }
+
+            .icon-text-container {
+                justify-content: center; /* Opcional: centra los íconos y texto horizontalmente */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="main-container">
+        <div class="icon-group">
+            <!-- Primer ícono con texto -->
+            <div class="icon-text-container">
+                <img src="img/icono%20nuestra%20historia.png" alt="Icono 1" class="icon">
+                <span class="text">Texto del primer ícono</span>
+            </div>
+
+            <!-- Segundo ícono con texto -->
+            <div class="icon-text-container">
+                <img src="img/icono%20peregrinos.png" alt="Icono 2" class="icon">
+                <span class="text">Texto del segundo ícono</span>
+            </div>
+            <!-- Segundo ícono con texto -->
+            <div class="icon-text-container">
+                <img src="img/icono areas.png" alt="Icono 2" class="icon">
+                <span class="text">Texto del segundo ícono</span>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
+						
 						</div>
 
 					</div>
@@ -174,7 +220,7 @@
 							</div>
 						</div>
 						<div class="col-md-6">
-							<h1>Showcase your Product or Service</h1>
+							<h1>CONOCE EL NUEVO FACEBOOK</h1>
 							<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed a lorem quis neque interdum consequat ut sed sem. Duis quis tempor nunc. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
 							<blockquote class="team-quote">
 								<div class="avatar"><img src="img/avatar.png" alt="User Avatar"></div>
@@ -332,7 +378,7 @@
 				<div class="row">
 					<div class="col-md-5">
 						<h1 class="footer-logo">
-						<img src="img/logo-bluea.png" alt="Footer Logo Blue">
+						<img src="img/logo-blue.png" alt="Footer Logo Blue">
 						</h1>
 						<p>© Boxify 2015 - <a href="http://tympanus.net/codrops/licensing/">Licence</a> - Designed &amp; Developed by <a href="http://www.peterfinlan.com/">Peter Finlan</a></p>
 					</div>
