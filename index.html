@@ -42,11 +42,38 @@
         display: block;
         background: #000;
     }
+    /* Título solo visible en móviles */
+    .mobile-header-title {
+        display: none;
+        position: absolute;
+        top: 30px;
+        left: 0;
+        width: 100vw;
+        text-align: center;
+        z-index: 10;
+        color: #fff;
+        font-size: 2rem;
+        font-weight: bold;
+        text-shadow: 0 2px 8px rgba(0,0,0,0.5);
+        /* Ajusta el fondo si es necesario */
+        background: rgba(0,0,0,0.35);
+        padding: 12px 10px 10px 10px;
+        box-sizing: border-box;
+    }
+    @media (max-width: 767px) {
+      .mobile-header-title {
+        display: block;
+      }
+    }
     </style>
 </head>
 <body>
     <!-- Portada con transición crossfade entre tres imágenes -->
     <header>
+        <!-- TÍTULO SOLO VISIBLE EN MÓVIL -->
+        <div class="mobile-header-title">
+            Peregrinación de los Pueblos 2025
+        </div>
         <img 
             id="portadaA" 
             src="img/fotoportada.png" 
