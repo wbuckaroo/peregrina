@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Digital Team HTML5 Layout - Tooplate</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+<!--
+
+-->
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/animate.min.css">
+	<link rel="stylesheet" href="css/et-line-font.css">
+	<link rel="stylesheet" href="css/nivo-lightbox.css">
+	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+</head>
+<body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
+
+<!-- preloader section -->
+
+<!-- navigation section -->
+
+
+<!-- home section -->
+<section id="home">
+	<div class="container">
+	<div class="col-md-12 col-sm-12 text-center">
+				<div class="section-title">
+					<div style="position: absolute; top: -280px; left: 1200px;">
+    <a href="/index.html"><img src="images/logo.jpg" width="100" height="70" alt="Codrops Logo"></a>
+  </div>
+				
+					
+				</div>
+			</div>
+		
+	</div>		
+</section>
+
+<!-- work section -->
+<section id="work">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				
+			</div>
+			
+			
+		</div>
+	</div>
+</section>
+
+<!-- about section1 -->
+<section id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 text-center">
+				<div class="section-title">
+					<strong>NUESTRA HISTORIA</strong>
+					<h1 class="heading bold">NUESTRA HISTORIA</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<img src="images/foto1.png" class="img-responsive" alt="about img">
+			</div>
+			<div class="col-md-6 col-sm-12">
+    
+    <!-- Nav tabs -->
+    <ul class="nav nav-tabs" role="tablist" id="myTab">
+        <li class="active"><a href="#design" aria-controls="design" role="tab">UN COMIENZO DE FE</a></li>
+       
+        
+    </ul>
+    <!-- tab panes -->
+    <div class="tab-content">
+        <div role="tabpanel" class="tab-pane active" id="design">
+            <p>Información General
+Fecha: Tercer viernes de octubre
+Salida: 17:00hs. puntual desde la Ermita de Hasenkamp
+Llegada: Sábado siguiente, con Misa en el Santuario La Loma a las 19:00hs. aproximadamente.
+
+Ingreso a Hasenkamp
+Todas las delegaciones deben ingresar por el cruce de rutas 127 y 32 (El Pingo).
+Quienes lleguen por Ruta 12 desde el norte (La Paz y otras comunidades), podrán ingresar directamente hasta la Ermita hasta las 16:00hs. Después de ese horario, deberán tomar la Ruta 127 hasta el cruce con la 32.
+📌 Prestar atención a este detalle logístico.
+Los vehículos de apoyo deben estar identificados y solicitar PASE con anterioridad.
+
+Orientación a peregrinos
+Se sugiere designar dos voluntarios por comunidad que, al llegar a cada parada, se ubiquen al costado de la ruta con un cartel con el nombre de su comunidad, para guiar a los peregrinos hasta su punto de descanso.
+Se ruega respetar las indicaciones dadas por diferentes áreas de trabajo (Estacionamiento / Servidores).
+
+ La Cruz Peregrina
+Cambiará de manos al comenzar cada tramo. Se solicita estar atentos al anuncio del equipo de sonido.
+Si algún Peregrino desea portarla solo debe anunciarse al inicio de la Peregrinación.
+
+ Zonas de descanso
+Las áreas de descanso estarán divididas por colores y tendrán acceso restringido a vehículos autorizados:
+CELESTE: Paraná, Cerrito, El Palenque, Santa Fe, San Benito, Oro Verde, Valle María, Col. Avellaneda, Buenos Aires.
+AMARILLO: Hasenkamp, Villaguay, Chajarí, Concordia, Feliciano, Las Garzas, La Paz, Santa Elena, Hernandarias, Colonia Of.Nº 4, Piedras Blancas, El Empalme, Nogoyá.
+ROJO: María Grande, Viale, Crespo, Seguí, El Pingo, Aldea Santa María, Tabossi, Las Tunas, Sosa, Alcaráz, Bovril, Sauce de Luna, Sir Leonard, San Jaime, Federal, Diamante, Avigdor, Ramírez, Lucas González, Hernández. Gob. Echevehere, Aldea Brasilera.
+Los grupos deberán seguir las indicaciones del Área de Estacionamiento para facilitar la organización.
+Si tu localidad no se encuentra entre las mencionadas, comunícate al número de la responsable del Área Referentes Parroquiales – Ana Ocampo 3434 51-1324 -
+
+Antorchas: un signo de fe
+Cada comunidad está invitada a llevar su antorcha para la salida desde Cerrito (medianoche del viernes). Es un símbolo de la luz de la fe que llevamos encendida y queremos compartir.
+
+Paradas del recorrido
+Salida: Ermita de Hasenkamp – Viernes, 17:00hs.
+1° Parada: Campo Podversich – 19:30 a 21:00hs.
+2° Parada: Cerrito – 00:30 a 02:00hs.
+3° Parada: El Palenque – 05:00 a 07:00hs. (desayuno gratuito a los peregrinos)
+4° Parada: Sauce Montrull – 12:30 a 14:00hs.
+Cartocor: Se compacta y continúa al Santuario La Loma.
+Llegada: Santuario La Loma – Misa a las 19:00 hs.
+
+Una fiesta de fe y unidad
+Recordamos que todos los colaboradores lo hacen voluntariamente, como gesto de amor a la Virgen. Sigamos las indicaciones de los Servidores y del Área Estacionamiento.
+Respetemos a la imagen de María que guía la Peregrinación. No adelantarse a ella. Vivamos este encuentro como una verdadera fiesta de fe y un testimonio de unidad entre los pueblos que caminan juntos por amor a Nuestra Madre.
+
+
+</p>
+        </div>
+        
+        </div>
+</div>
+<script>
+document.querySelectorAll('.nav-tabs a').forEach(function(tabLink) {
+    tabLink.addEventListener('click', function(e) {
+        e.preventDefault();
+        // Remove active from all tabs
+        document.querySelectorAll('.nav-tabs li').forEach(function(li) {
+            li.classList.remove('active');
+        });
+        // Set active to current tab
+        this.parentElement.classList.add('active');
+        // Hide all tab panes
+        document.querySelectorAll('.tab-pane').forEach(function(tabPane) {
+            tabPane.classList.remove('active');
+        });
+        // Show selected tab pane
+        var target = this.getAttribute('href');
+        document.querySelector(target).classList.add('active');
+    });
+});
+</script>
+		</div>
+	</div>
+</section>
+		
+
+
+
+
+<script>
+document.querySelectorAll('.col-md-6.col-sm-12').forEach(function(block) {
+    block.querySelectorAll('.nav-tabs a').forEach(function(tabLink) {
+        tabLink.addEventListener('click', function(e) {
+            e.preventDefault();
+            // Remove active from all tabs in this block
+            block.querySelectorAll('.nav-tabs li').forEach(function(li) {
+                li.classList.remove('active');
+            });
+            // Set active to current tab
+            this.parentElement.classList.add('active');
+            // Hide all tab panes in this block
+            block.querySelectorAll('.tab-pane').forEach(function(tabPane) {
+                tabPane.classList.remove('active');
+            });
+            // Show selected tab pane
+            var target = this.getAttribute('href');
+            block.querySelector(target).classList.add('active');
+        });
+    });
+});
+</script>
+
+<!-- footer section -->
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12">
+				<p>Copyright © Area Comunicación y Redes PDLP | </p>
+				<hr>
+				<ul class="social-icon">
+					<li><a href="#" class="fa fa-facebook wow fadeIn" data-wow-delay="0.3s"></a></li>
+					<li><a href="#" class="fa fa-twitter wow fadeIn" data-wow-delay="0.6s"></a></li>
+					<li><a href="#" class="fa fa-dribbble wow fadeIn" data-wow-delay="0.9s"></a></li>
+					<li><a href="#" class="fa fa-behance wow fadeIn" data-wow-delay="0.9s"></a></li>
+					<li><a href="#" class="fa fa-tumblr wow fadeIn" data-wow-delay="0.9s"></a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+</footer>
+
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/smoothscroll.js"></script>
+<script src="js/isotope.js"></script>
+<script src="js/imagesloaded.min.js"></script>
+<script src="js/nivo-lightbox.min.js"></script>
+<script src="js/jquery.backstretch.min.js"></script>
+<script src="js/wow.min.js"></script>
+<script src="js/custom.js"></script>
+
+</body>
+</html>
