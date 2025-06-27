@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
 	<meta charset="utf-8">
 	<title>Digital Team HTML5 Layout - Tooplate</title>
@@ -7,9 +7,6 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="">
 	<meta name="description" content="">
-<!--
-
--->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.min.css">
@@ -18,44 +15,77 @@
 	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+	<style>
+		@media (max-width: 768px) {
+			.mobile-image-overlay {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: rgba(0,0,0,0.5);
+				color: #fff;
+				font-size: 1.2em;
+				text-align: center;
+				z-index: 2;
+				border-radius: 8px;
+				padding: 16px;
+			}
+			.image-section-wrapper {
+				position: relative;
+				display: block;
+				width: 100%;
+			}
+		}
+		@media (min-width: 769px) {
+			.mobile-image-overlay {
+				display: none !important;
+			}
+		}
+			.solo-movil {
+  display: none;
+}
+@media (max-width: 768px) {
+  .solo-movil {
+    display: inline;
+  }
+}
+	</style>
+
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
 
-<!-- preloader section -->
-
-<!-- navigation section -->
-
-
-<!-- home section -->
+<!-- home section con carrusel/slider -->
 <section id="home">
 	<div class="container">
-	<div class="col-md-12 col-sm-12 text-center">
-				<div class="section-title">
-					<div style="position: absolute; top: -280px; left: 1200px;">
-    <a href="/index.html"><img src="images/logo.jpg" width="100" height="70" alt="Codrops Logo"></a>
-  </div>
+		<div class="row">
+			<div class="col-md-12 col-sm-12 text-center">
 				
+				
+					 <span class="solo-movil"><div class="col-md-12 col-sm-12 text-center">
+				<div class="section-title">
+					<strong>ÁREAS</strong>
 					
+					<hr>
+				</div>
+			</div></span>
+
+								
+						
+					
+			
+				<!-- Logo, si lo deseas en el home -->
+				<div style="position: absolute; top: -280px; left: 1200px;">
+					<a href="/index.html"><img src="images/logo.jpg" width="100" height="70" alt="Codrops Logo"></a>
 				</div>
 			</div>
-		
+		</div>
 	</div>		
 </section>
 
-<!-- work section -->
-<section id="work">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-12 col-sm-12">
-				
-			</div>
-			
-			
-		</div>
-	</div>
-</section>
-
-<!-- about section1 -->
 <section id="about">
 	<div class="container">
 		<div class="row">
@@ -440,6 +470,174 @@ El trabajo se realiza antes, durante y después de la Peregrinación, recopiland
 	</div>
 </section><!-- about section --> 
 
+
+	<div style="margin-bottom: 100px;"></div> <!-- separacion de partes -->
+<section id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 text-center">
+				<div class="section-title">
+					<strong>09</strong>
+					<h1 class="heading bold">CANTINA</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<img src="images/cantina.png" class="img-responsive" alt="about img">
+			</div>
+			<div class="col-md-6 col-sm-12">
+				
+				
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="active"><a href="#design" aria-controls="design" role="tab" data-toggle="tab">DESCRIPCIÓN</a></li>
+					<li><a href="#mobile" aria-controls="mobile" role="tab" data-toggle="tab">TAREAS PRINCIPALES</a></li>
+					
+				</ul>
+				<!-- tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="design">
+						<p>Está conformada por un grupo tanto de mujeres como hombres, los cuales trabajan durante todo el trayecto de la peregrinación, trasladados en un vehículo que va acompañado la misma durante todo el trayecto.
+</p>
+						
+					</div>
+					<div role="tabpanel" class="tab-pane" id="mobile">
+						<p>• Acompañar la peregrinación transitando al costado de la misma. Se realizan también paradas en la banquina, durante todo el trayecto ofreciendo bebidas frescas (sin alcohol), caramelos, galletitas, al peregrino que desee adquirir. </p><p>• En cada parada el camión se coloca junto al área de cocina para facilitar al peregrino y pueda adquirir comida y bebida al mismo tiempo.</p><p>• Solamente durante el tramo nocturno, desde Cerrito hasta El Palenque, no se realiza este acompañamiento desde la banquina. En el resto de la jornada, se continúa brindando este servicio.</p><p> 
+						
+					</div>
+					
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section><!-- about section --> 
+
+<div style="margin-bottom: 100px;"></div> <!-- separacion de partes -->
+<section id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 text-center">
+				<div class="section-title">
+					<strong>10</strong>
+					<h1 class="heading bold">SALUD</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<img src="images/salud.png" class="img-responsive" alt="about img">
+			</div>
+			<div class="col-md-6 col-sm-12">
+				
+				
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="active"><a href="#design" aria-controls="design" role="tab" data-toggle="tab">DESCRIPCIÓN</a></li>
+					<li><a href="#mobile" aria-controls="mobile" role="tab" data-toggle="tab">TAREAS PRINCIPALES</a></li>
+					
+				</ul>
+				<!-- tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="design">
+						<p>Este grupo está formado por voluntarios, estudiantes y profesionales que acompañan a los peregrinos durante todo el recorrido, ofreciendo un valioso servicio de apoyo. Médicos, enfermeros, kinesiólogos y otros trabajadores de la salud, junto con ambulancias, conforman este extraordinario equipo humano que entrega su corazón en cada persona que atienden durante más de 24 horas de peregrinación.
+ </p>
+						
+					</div>
+					<div role="tabpanel" class="tab-pane" id="mobile">
+						<p>• Coordinar la convocatoria a hospitales, centros de salud e institutos médicos para integrar el equipo de trabajo.</p><p>• Gestionar la disponibilidad de ambulancias que acompañen a los peregrinos durante las horas de caminata, brindando atención médica a quienes lo requieran.</p><p>• Organizar los puntos de atención en las distintas paradas para asegurar un servicio óptimo.</p><p> </p><p>• Facilitar el traslado de pacientes hacia el hospital más cercano cuando necesiten atención especializada o de mayor complejidad.</p>
+						
+					</div>
+					
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section><!-- about section --> 
+
+<div style="margin-bottom: 100px;"></div> <!-- separacion de partes -->
+<section id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 text-center">
+				<div class="section-title">
+					<strong>11</strong>
+					<h1 class="heading bold">MOCHILAS</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<img src="images/mochilas.png" class="img-responsive" alt="about img">
+			</div>
+			<div class="col-md-6 col-sm-12">
+				
+				
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="active"><a href="#design" aria-controls="design" role="tab" data-toggle="tab">DESCRIPCIÓN</a></li>
+					<li><a href="#mobile" aria-controls="mobile" role="tab" data-toggle="tab">TAREAS PRINCIPALES</a></li>
+					
+				</ul>
+				<!-- tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="design">
+						<p>Uno de los servicios esenciales en la Peregrinación de los Pueblos es el traslado de los bolsos de los peregrinos, que asisten de manera particular, permitiéndoles caminar con mayor comodidad. Este camión sale desde la Ermita de Hasenkamp donde recibe las mochilas, las enumera, así cada peregrino, al llegar a los descansos puede retirarla de manera fácil y rápida. </p>
+						
+					</div>
+					<div role="tabpanel" class="tab-pane" id="mobile">
+						<p>• Registrar a las personas que depositarán sus bolsos en el camion y organizar su distribución en cada parada.</p><p>• Asegurar que los camiones estén correctamente identificados con carteles y que las mochilas cuenten con números para su reconocimiento.
+</p>
+						
+					</div>
+					
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section><!-- about section --> 
+
+<div style="margin-bottom: 100px;"></div> <!-- separacion de partes -->
+<section id="about">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-sm-12 text-center">
+				<div class="section-title">
+					<strong>12</strong>
+					<h1 class="heading bold">SECRETARIA Y TESORERÍA</h1>
+					<hr>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<img src="images/secretaria.png" class="img-responsive" alt="about img">
+			</div>
+			<div class="col-md-6 col-sm-12">
+				
+				
+				<!-- Nav tabs -->
+				<ul class="nav nav-tabs" role="tablist">
+					<li class="active"><a href="#design" aria-controls="design" role="tab" data-toggle="tab">DESCRIPCIÓN</a></li>
+					<li><a href="#mobile" aria-controls="mobile" role="tab" data-toggle="tab">TAREAS PRINCIPALES</a></li>
+					
+				</ul>
+				<!-- tab panes -->
+				<div class="tab-content">
+					<div role="tabpanel" class="tab-pane active" id="design">
+						<p>Estas áreas trabajan en forma complementaria, coordinando el trabajo de las demás áreas. Gestionando y permaneciendo en comunicación continua, con los distintos organismos oficiales tanto nacionales, provinciales y/o municipales. A su vez son las encargadas de llevar a cabo la administración a través del control y registro de lo que se recauda en distintos eventos o actividades organizadas, para cubrir los gastos que se generan en el desarrollo de cada edición de nuestra Peregrinación de los Pueblos; ya sea antes como durante y después de la misma.
+</p>
+						
+					</div>
+					<div role="tabpanel" class="tab-pane" id="mobile">
+						<p>• Confección y envío de notas a los Organismos Oficiales(Nacionales, Provinciales y Municipales), Instituciones, Parroquias. </p><p>•  Redacción de notas para las gestiones que realizan cada una de las áreas. </p> <p>• Información periódica de las gestiones de coordinación y finanzas a la Comisión Central.</p>
+						
+					</div>
+					
+
+				</div>
+			</div>
+		</div>
+	</div>
+</section><!-- about section --> 
 
 <!-- about section2 
 
