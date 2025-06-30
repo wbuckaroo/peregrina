@@ -2,14 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Digital Team HTML5 Layout - Tooplate</title>
+	<title>HISTORIA - PDLP</title>
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="keywords" content="">
 	<meta name="description" content="">
-<!--
-
--->
 	<link rel="stylesheet" href="css/bootstrap.min.css">
 	<link rel="stylesheet" href="css/font-awesome.min.css">
 	<link rel="stylesheet" href="css/animate.min.css">
@@ -18,27 +15,74 @@
 	<link rel="stylesheet" href="css/nivo_themes/default/default.css">
 	<link rel="stylesheet" href="css/style.css">
 	<link href='https://fonts.googleapis.com/css?family=Roboto:400,300,500' rel='stylesheet' type='text/css'>
+	<style>
+		@media (max-width: 768px) {
+			.mobile-image-overlay {
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				position: absolute;
+				top: 0;
+				left: 0;
+				width: 100%;
+				height: 100%;
+				background: rgba(0,0,0,0.5);
+				color: #fff;
+				font-size: 1.2em;
+				text-align: center;
+				z-index: 2;
+				border-radius: 8px;
+				padding: 16px;
+			}
+			.image-section-wrapper {
+				position: relative;
+				display: block;
+				width: 100%;
+			}
+		}
+		@media (min-width: 769px) {
+			.mobile-image-overlay {
+				display: none !important;
+			}
+		}
+			.solo-movil {
+  display: none;
+}
+@media (max-width: 768px) {
+  .solo-movil {
+    display: inline;
+  }
+}
+	</style>
+
 </head>
 <body data-spy="scroll" data-target=".navbar-collapse" data-offset="50">
-
-<!-- preloader section -->
-
-<!-- navigation section -->
-
 
 <!-- home section -->
 <section id="home">
 	<div class="container">
-	<div class="col-md-12 col-sm-12 text-center">
-				<div class="section-title">
-					<div style="position: absolute; top: -280px; left: 1200px;">
-    <a href="/index.html"><img src="images/logo.jpg" width="100" height="70" alt="Codrops Logo"></a>
-  </div>
+		<div class="row">
+			<div class="col-md-12 col-sm-12 text-center">
 				
+				
+					 <span class="solo-movil"><div class="col-md-12 col-sm-12 text-center">
+				<div class="section-title">
+					<strong>HISTORIA</strong>
 					
+					<hr>
+				</div>
+			</div></span>
+
+								
+						
+					
+			
+				<!-- Logo, si lo deseas en el home -->
+				<div style="position: absolute; top: -280px; left: 1200px;">
+					<a href="/index.html"><img src="images/logo.jpg" width="100" height="70" alt="Codrops Logo"></a>
 				</div>
 			</div>
-		
+		</div>
 	</div>		
 </section>
 
