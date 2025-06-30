@@ -39,10 +39,13 @@ h1, h2, h3, h4 {
 p {
   line-height: 28px;
   font-size: 15px;
+  text-align: justify;
+
 }
 
 a {
   outline: none !important;
+   text-align: justify;
 }
 
 hr {
@@ -52,7 +55,7 @@ hr {
 
 .section-title strong {
 	color: #00C6D7;
-  	font-size: 56px;
+  	font-size: 45px;
 }
 
 .section-title h1 {
